@@ -6,7 +6,7 @@ body {
     color: #e6e6e6;
 }
 
-h1, h2, h3, h4, .navbar {
+h1, h2, h3, h4, h5, .navbar {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300;
     text-transform: uppercase;
@@ -139,9 +139,17 @@ section {
     background-image: url("/images/block3.jpg");
 }
 
+hr {
+    border: none;
+    height: 1px;
+    color: #868686; /* old IE */
+    background-color: #868686; /* Modern Browsers */
+}
+
 .footer {
     padding: 10px 0;
     color: #e6e6e6;
+    margin-top: 10px;
 }
 
 .footer a {
@@ -155,4 +163,14 @@ section {
 .footer .fa {
     font-size: 24px;
     margin-right: 10px;
+}
+
+.portfolio-page .card {
+    margin-bottom: 15px;
+    background-color: #101010;
+}
+
+.carousel-inner {
+    padding: 30px 30px 30px 30px;
+    margin-top: -30px;
 }

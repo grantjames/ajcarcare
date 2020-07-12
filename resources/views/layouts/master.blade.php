@@ -53,8 +53,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/aj_carcare/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/AJ-Car-Care-100788921520897/" target="_blank"><i class="fa fa-facebook-official"></i></a>
                 </div>
                 <div class="col text-right">
                     &copy; 2020 AJ Car Care

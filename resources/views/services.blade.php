@@ -2,12 +2,50 @@
 
 @section('content')
 
-<div class="container">
+<div class="container portfolio-page">
     <h1>Services</h1>
     <hr>
-    <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam minus debitis, cum nesciunt recusandae magni officiis quod, natus cupiditate reiciendis ipsam. Non sunt omnis adipisci perferendis soluta expedita consequatur officiis!
-    </p>
+
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Service</h4>
+                    <p class="card-text">Some short text about the service offered</p>
+                    <a href="#" class="btn btn-aj stretched-link">Find out more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Service</h4>
+                    <p class="card-text">Some short text about the service offered</p>
+                    <a href="#" class="btn btn-aj stretched-link">Find out more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Service</h4>
+                    <p class="card-text">Some short text about the service offered</p>
+                    <a href="#" class="btn btn-aj stretched-link">Find out more</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Service</h4>
+                    <p class="card-text">Some short text about the service offered</p>
+                    <a href="#" class="btn btn-aj stretched-link">Find out more</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 @endsection
