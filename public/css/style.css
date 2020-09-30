@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    padding-top: 86px;
+    padding-top: 100px;
 
     background-color: #090909;
     color: #e6e6e6;
@@ -37,7 +37,7 @@ a:hover {
     -moz-transition: all 0.3s ease;
 }
 
-.navbar a:hover {
+.navbar a:hover, .navbar a.active {
     color: #1d9cd3;
 }
 

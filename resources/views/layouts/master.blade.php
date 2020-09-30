@@ -20,27 +20,29 @@
 
     <nav class="navbar fixed-top navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand" href="/">AJ CAR CARE</a>
+            <a class="navbar-brand" href="/">
+                <img src="/images/logo-nav.png" alt="AJ CAR CARE" />
+            </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="/about">ABOUT</a>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->segment(1) == 'about' ? 'active' : '' }}" href="/about">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/services">SERVICES</a>
+                        <a class="nav-link {{ request()->segment(1) == 'services' ? 'active': '' }}" href="/services">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/portfolio">PORTFOLIO</a>
+                        <a class="nav-link {{ request()->segment(1) == 'portfolio' ? 'active' : '' }}" href="https://www.instagram.com/aj_carcare/" target="_blank">PORTFOLIO</a>
                     </li>
                     {{-- <li class="nav-item">
                         <a class="nav-link" href="#">BLOG</a>
                     </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" href="/contact">BOOK AN APPOINTMENT</a>
+                        <a class="nav-link {{ request()->segment(1) == 'contact' ? 'active' : '' }}" href="/contact">BOOK AN APPOINTMENT</a>
                     </li>
                 </ul>
             </div>

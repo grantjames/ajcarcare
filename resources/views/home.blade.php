@@ -17,7 +17,7 @@
     <section class="text-center">
         <h2>About AJ Car Care</h2>
         <p>
-            Some text here about Ash and AJ Car Care. Just 2 or 3 sentences to make up a full paragraph. Some text here about Ash and AJ Car Care. Just 2 or 3 sentences to make up a full paragraph.
+            Text here...
         </p>
         <p style="margin-bottom: 0;">
             <a href="/about">Find out more</a>
@@ -34,12 +34,12 @@
                 <p>We offer a range of services to suit every budget. From paint correction and ceramic coatings to show car preparation.</p>
                 <a href="#" class="btn btn-outline-light">Find out more</a>
             </div>
-            <div class="col-sm home-block block2">
+            {{--<div class="col-sm home-block block2">
                 <h3>Portfolio</h3>
                 <p>Take a look at the work we've done in the past to see how AJ Car Care can make your car look and feel better-than-new.</p>
                 <a href="#" class="btn btn-outline-light">View Portfolio</a>
-            </div>
-            <div class="col-sm home-block block3">
+            </div>--}}
+            <div class="col-sm home-block block2">
                 <h3>Contact</h3>
                 <p>Please get in touch to ask any questions you may have and to receive a no obligation quote.</p>
                 <a href="#" class="btn btn-outline-light">Contact us</a>
