@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    padding-top: 100px;
+    padding-top: 80px;
 
-    background-color: #090909;
+    background-color: #181818;
     color: #e6e6e6;
 }
 
@@ -63,8 +63,8 @@ a:hover {
 #home-jumbotron {
     background-image: url("/images/blue_car.jpg");
     background-position: 0 0;
-    margin-top: -86px;
-    padding-top: 86px;
+    margin-top: -80px;
+    padding-top: 80px;
 
     /* background-attachment: fixed; */
     background-repeat: no-repeat;
@@ -173,4 +173,24 @@ hr {
 .carousel-inner {
     padding: 30px 30px 30px 30px;
     margin-top: -30px;
+}
+
+#contact-jumbotron {
+    background-image: url("/images/blue_car.jpg");
+    background-position: 0 0;
+    margin-top: -80px;
+    padding-top: 80px;
+
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    text-align: center;
+    margin-bottom: 20px;
+
+    padding: 120px 0 40px 0;
+}
+
+#contact-jumbotron h1 {
+    margin: 0;
 }

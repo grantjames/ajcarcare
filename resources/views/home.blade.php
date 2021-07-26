@@ -17,7 +17,7 @@
     <section class="text-center">
         <h2>About AJ Car Care</h2>
         <p>
-            Text here...
+            AJ Car Care provide both mobile and unit based premium detailing and valeting services to the West Midlands and surrounding areas. Our expertise, along with using only the best products available, ensure your car will look and feel better than it did when it left the showroom.
         </p>
         <p style="margin-bottom: 0;">
             <a href="/about">Find out more</a>
@@ -29,26 +29,26 @@
 <div class="container-fluid">
     <section class="home-blocks">
         <div class="row">
-            <div class="col-sm home-block block1">
+            {{-- <div class="col-sm home-block block1">
                 <h3>Services</h3>
                 <p>We offer a range of services to suit every budget. From paint correction and ceramic coatings to show car preparation.</p>
-                <a href="#" class="btn btn-outline-light">Find out more</a>
-            </div>
-            {{--<div class="col-sm home-block block2">
+                <a href="/services" class="btn btn-outline-light">Find out more</a>
+            </div> --}}
+            <div class="col-sm home-block block1">
                 <h3>Portfolio</h3>
                 <p>Take a look at the work we've done in the past to see how AJ Car Care can make your car look and feel better-than-new.</p>
-                <a href="#" class="btn btn-outline-light">View Portfolio</a>
-            </div>--}}
+                <a href="https://www.instagram.com/aj_carcare/" target="_blank" class="btn btn-outline-light">View Portfolio</a>
+            </div>
             <div class="col-sm home-block block2">
                 <h3>Contact</h3>
                 <p>Please get in touch to ask any questions you may have and to receive a no obligation quote.</p>
-                <a href="#" class="btn btn-outline-light">Contact us</a>
+                <a href="/contact" class="btn btn-outline-light">Contact us</a>
             </div>
         </div>
     </section>
 </div>
 
-<div class="container">
+{{-- <div class="container">
     <section class="text-center">
         <h2>Testimonials</h2>
         
@@ -90,6 +90,6 @@
 
 
     </section>
-</div>
+</div> --}}
 
 @endsection
