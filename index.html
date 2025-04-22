@@ -1,6 +1,84 @@
-<html>
-  <head><title>Testing</title></head>
-  <body>
-    Coming soon
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      AJ Car Care - Premium Automotive Detailing
+    </title>
+    <meta name="description" content="Simple landind page" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css"/>
+    <!--Replace with your tailwind.css once created-->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
+    <style>
+      .gradient {
+        background: linear-gradient(90deg, #0c597a 0%, #1d9cd3 100%);
+      }
+    </style>
+  </head>
+  <body class="leading-normal tracking-normal" style="font-family: 'Source Sans Pro', sans-serif;">
+    <!--Hero-->
+    <div style="background-image: url('https://www.ajcarcare.co.uk/public/images/blue_car.jpg'); background-size: cover; background-position: center;">
+      <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+        <!--Left Col-->
+        <div class="flex flex-col w-full justify-center items-center text-center">
+          <img src="https://www.ajcarcare.co.uk/public/images/logo.png" alt="AJ Car Care logo" style="max-height: 600px" />
+          <!-- <div class="flex flex-col md:flex-row mb-8">
+            <a href="#contact" style="background-color: #1d9cd3" class="text-white font-bold rounded-md m-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Book an Appointment
+            </a>
+            <a href="#about" class="bg-white text-gray-800 font-bold rounded-md m-2 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+              Why AJ Car Care?
+            </a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <section id="about" class="bg-white border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+          Why AJ Car Care?
+        </h2>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="flex flex-wrap">
+          <div class="p-6">
+            <p class="text-gray-600">
+              AJ Car Care provide both mobile and unit based premium detailing and valeting services to the West Midlands and surrounding areas. Our expertise, along with using only the best products available, ensure your car will look and feel better than it did when it left the showroom.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="bg-white border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8 text-gray-800">
+        <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center">
+          Contact
+        </h2>
+        <div class="w-full mb-4">
+          <div class="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
+        </div>
+        <div class="flex flex-wrap justify-center">
+          <div class="flex flex-row mx-4">
+              <h3 class="text-3xl font-bold mr-4">Email</h3>
+              <a style="line-height: 280%" class="text-blue-400" id="email-link" href="mailto:ash-AT-ajcarcare.co.uk">ash-AT-ajcarcare.co.uk</a>
+          </div>
+          <div class="flex flex-row mx-4 align-middle">
+              <h3 class="text-3xl font-bold mr-4">Phone</h3>
+              <a style="line-height: 280%" class="align-middle text-blue-400" href="tel:+447977530190">07977 530 190</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      var el = document.getElementById('email-link');
+      el.setAttribute('href', 'mailto:' + 'ash' + '@ajcarcare.co.uk');
+      el.text = 'ash' + '@ajcarcare.co.uk';
+  </script>
   </body>
 </html>
